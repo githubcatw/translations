@@ -39,14 +39,31 @@
                 "misc" : "Другое"
             },
             "rarity" : {
+                "frozen" : "Мороз",
+                "lava" : "Лава",
                 "legendary" : "Легендарный",
+                "dark" : "Темный",
+                "marvel" : "Marvel",
+                "dc" : "DC",
+                "icon_series" : "Icon Series",
+                "slurp" : "Нектарный",
+                "shadow" : "Тень",
                 "epic" : "Эпический",
                 "rare" : "Редкий",
                 "uncommon" : "Необычный",
                 "common" : "Обычный"
             },
             "translationNotAvailable" : "К сожалению, эта страница еще не переведена.",
-            "translationIncomplete" : "Не весь текст на этой странице будет переведен."
+            "translationIncomplete" : "Не весь текст на этой странице будет переведен.",
+            "item-noun" : {
+                "singular" : "вещь",
+                "plural" : "вещей"
+            },
+            "result-noun" : {
+                "format" : "[number] [noun]",
+                "singular" : "результат",
+                "plural" : "результатов"
+            }
         },
         "nav" : {
             "home" : "Главная",
@@ -59,7 +76,8 @@
                 "gallery" : "галерея",
                 "icons" : "иконки",
                 "reminders" : "оповещения",
-                "history" : "история магазинов"
+                "history" : "история магазинов",
+                "sets" : "наборы вещей",
             },
             "news" : "новости",
             "modes" : "режимы",
@@ -94,7 +112,21 @@
             "title-upcoming" : "Предметы, которые скоро выйдут",
             "title-all" : "Все предметы",
             "error" : "Невозможно загрузить предметы, попробуйте позже.",
-            "error-too-long" : "Это займет больше, чем ожидалось"
+            "error-too-long" : "Это займет больше, чем ожидалось",
+            "subtitle-upcoming" : "[number] [noun]",
+            "button-upcoming" : "Смотреть больше будущих вещей",
+        },
+        "search" : {
+            "button-text" : "Поискать",
+            "button-text-cancel" : "Отменить поиск",
+            "placeholder" : "Поискать вещь...",
+            "response" : {
+                "error-format" : "Ошибка: [message]",
+                "no-results" : "Ничего не найдено по вашему запросу",
+                "conflict" : "Аргументов нет",
+                "bad-request" : "Неправильный запрос",
+                "ratelimit" : "Слишком много запросов, попробуйте опять череь пару секунд"
+            }
         },
         "shop" : {
             "title" : "Сегодняшний магазин",
